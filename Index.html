@@ -6,7 +6,7 @@
         </title>
         <meta charset="utf-8"> 
         <link rel="icon" type="image/x-icon" href="C:\Users\Laura Guadalupe\Downloads\IMG-20220608-WA0003.jpg">
-        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
 
         <style>
             h1{
@@ -20,22 +20,23 @@
 
     <body> 
         <header> 
-            <h1> Sha-liz</h1>
-            <div class="derecha">
-                <img src="C:\Users\Laura Guadalupe\Downloads\IMG-20220608-WA0003.jpg" width="100" height="100">
-              
-
-            <nav>
-                <!-- Lista de navegación-->
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Secciones</a></li>
-                    <li><a href="#">Ofertas</a></li>
-    
-                </ul>
-
-             </nav>
-
+            <h1>Sha-liz</h1>
+            <nav class="navbar navbar-expand-lg bg-info">
+                <div class="container-fluid">  <!--inicio del div contenedor principal-->
+                     <a class="navbar-brand" href="#">Sha-Liz</a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class= "collapse navbar-collapse" id="navbarSupportedContent">
+                         <!--contenedor para generar efecto  menu-->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+                            <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Ofertas</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#+">Secciones</a></li>
+                        </ul>                        
+                    </div>
+                </div>
+            </nav>
         </header> 
         <hr>
         <section> 
@@ -47,7 +48,7 @@
                         <p class="text-justify">
                           En el módulo Introducción al HTML, exponemos qué es el HTML y cómo se usa para definir documentos destinados a leerse en un navegador web. Los títulos se verán más grandes que el texto y los párrafos empezarán en una línea nueva y habrá un espacio entre ellos. Los enlaces aparecerán en un color diferente y subrayados para distinguirlos del resto del texto.
                            Vienen predeterminados por el navegador y, en la práctica, son estilos muy básicos que el navegador aplica al HTML para asegurarse, básicamente, de que sean legibles incluso si el autor de la página no especifica un estilo explícito.
-                        </p>
+                        </p>s
                     </div>
                     
                     <div class="col-lg-5 col-md-4"> <!--Parrafo 2-->
@@ -91,4 +92,5 @@
         </section>
         <footer></footer>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
